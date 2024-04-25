@@ -1,7 +1,79 @@
-body { color: aqua;}
-.titulo { color: red;}
-.subtitulos { color: greenyellow;}
-.rojo { color: red;}
-.lista1 { color: yellow;}
-.lista2 { color: blue;}
-.prueba { color: violet;}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: aqua;
+}
+
+.titulo {
+  color: red;
+}
+
+.subtitulos {
+  color: greenyellow;
+}
+
+.rojo {
+  color: red;
+}
+
+.lista1 {
+  color: yellow;
+}
+
+.lista2 {
+  color: blue;
+}
+
+.prueba {
+  color: violet;
+}
+
+.prueba-texto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.texto1 {
+  list-style: none;
+  text-align: center;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.texto1 li {
+  display: inline-block;
+}
+
+.texto1 a {
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 800;
+  padding: 3rem;
+  font-size: 1.4rem;
+}
+
+.encabezado {
+  background-image: url(./imagenes/cabeza.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  height: 30vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 252);
+}
+
+.iralpie a {
+  text-decoration: none;
+  color: red;
+  float: right;
+}
