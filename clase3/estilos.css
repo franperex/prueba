@@ -85,3 +85,16 @@ body {
   color: red;
   float: right;
 }
+
+.box_model { 
+  background-color: beige;
+  width: 250px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 30px ;
+  padding-right: 40px;
+  margin: 20px 30px 40px 50px ; /*sentido agujas del reloj*/
+  overflow: auto;
+  border: dotted 5px red;
+}
