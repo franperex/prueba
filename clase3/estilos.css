@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .general {
 background-color: beige;
@@ -103,4 +104,64 @@ background-color: beige;
 
 .box_model p {
   color: white;
+}
+
+.imagen-gato {
+  width: 70%;
+  height: 70%;
+  box-shadow: 6px 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.piedepagina {
+text-align: center;
+font-size: 1.4rem;
+background-color: beige;
+color: black;
+clear:both;
+padding: 1rem;
+}
+
+.contenidocontacto {
+/*width: 50%;
+height: 50%; */ 
+background-color: rgba(129, 2, 248, 0.308);
+padding: 1rem;
+width: 70%;
+float: left;
+}
+
+.imgcontenido{
+  background-color: black;
+  width: 50%;
+}
+
+.imgcontenido img {
+width: 100%;
+box-shadow: 5px 5px rgba(0, 0, 0, 0.281);
+border-radius: 5px;
+}
+
+.contactosugerencias{
+  background-color: rgb(243, 152, 152);
+  border: solid 12px black;
+  border-top: solid 12px salmon;
+  line-height: 2rem;
+  width: 30%;
+  padding: 2rem;
+  float: right;
+}
+.listasugerencias{
+  width: 90%;
+  padding-top: 1rem;
+}
+.listasugerencias img {
+border-radius: 3px;
+width: 100%;
+}
+
+.listadosugerencias{
+padding-top: 1rem;
+
 }
