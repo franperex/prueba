@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#grilla{
+    display:grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav producto publicidad"
+    "nav servicios publicidad"
+    "nav footer footer";
+
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 25% auto 15%;
+    row-gap: 10px;
+    column-gap: 20px;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+    grid-area: header;
+}
+
+footer{
+    background-color: aqua;
+    grid-area: footer;
+}
+
+aside {
+background-color: coral;
+grid-area: publicidad;
+
+}
+
+#productos{
+    background-color: blue;
+    grid-area: producto;
+}
+#servicios{
+    background-color: yellow;
+    grid-area: servicios;
+}
+nav {
+    background-color: yellowgreen;
+    grid-area: nav;
+
+}
