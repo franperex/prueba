@@ -81,8 +81,8 @@ nav {
 
     @media(min-width: 768px){
        #grilla{ 
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-columns: 20% auto; ;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 20% auto;
      }
      .borde{
         border: 5px solid black;

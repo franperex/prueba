@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.general {
+background-color: beige;
+}
+.body {
+  color: aqua;
+}
+
+.titulo {
+  color: red;
+}
+
+.subtitulos {
+  color: greenyellow;
+}
+
+.rojo {
+  color: red;
+}
+
+.lista1 {
+  color: yellow;
+}
+
+.lista2 {
+  color: blue;
+}
+
+.prueba {
+  color: violet;
+}
+
+.prueba-texto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.texto1 {
+  list-style: none;
+  text-align: center;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.texto1 li {
+  display: inline-block;
+}
+
+.texto1 a {
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 800;
+  padding: 3rem;
+  font-size: 1.4rem;
+}
+
+.texto1 a:hover {
+  text-decoration: none;
+  color: red;
+  font-weight: 800;
+  padding: 3rem;
+  font-size: 1.4rem;
+}
+
+.encabezado {
+  background-image: url(./imagenes/cabeza.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  height: 10vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 252);
+}
+
+.iralpie a {
+  text-decoration: none;
+  color: red;
+  float: right;
+}
+
+.box_model { 
+  background-color: blue;
+  width: 250px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 30px ;
+  padding-right: 40px;
+  margin: 20px 30px 40px 50px ; /*sentido agujas del reloj*/
+  overflow: auto;
+  border: dotted 5px red;
+}
+
+.box_model p {
+  color: white;
+}
+
+.imagen-gato {
+  width: 70%;
+  height: 70%;
+  box-shadow: 6px 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.piedepagina {
+text-align: center;
+font-size: 1.4rem;
+background-color: beige;
+color: black;
+clear:both;
+padding: 1rem;
+}
+
+.contenidocontacto {
+/*width: 50%;
+height: 50%; */ 
+background-color: rgba(129, 2, 248, 0.308);
+padding: 1rem;
+width: 70%;
+float: left;
+}
+
+.imgcontenido{
+  background-color: black;
+  width: 50%;
+}
+
+.imgcontenido img {
+width: 100%;
+box-shadow: 5px 5px rgba(0, 0, 0, 0.281);
+border-radius: 5px;
+}
+
+.contactosugerencias{
+  background-color: rgb(243, 152, 152);
+  border: solid 12px black;
+  border-top: solid 12px salmon;
+  line-height: 2rem;
+  width: 30%;
+  padding: 2rem;
+  float: right;
+}
+.listasugerencias{
+  width: 90%;
+  padding-top: 1rem;
+}
+.listasugerencias img {
+border-radius: 3px;
+width: 100%;
+}
+
+.listadosugerencias{
+padding-top: 1rem;
+
+}
+
+/* formulario */
+
+.formulario{
+width: 50%;
+margin: 0 auto;
+
+}
+
+.fieldset{
+border: 1px solid black;
+padding: 2rem;
+}
+.form_group{
+display: block;
+margin-bottom: 1rem;
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.form_group select {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  }
+
+.form_group input:focus{
+  background-color: aqua;
+  }
+
+.submit {
+display: block;
+margin-top: 1rem;
+margin-bottom: 1rem;
+height: 3rem;
+}
+
+.submit input{
+display: block;
+background-color: rgb(238, 162, 162);
+border-radius: 0.3rem;
+width: 30%;
+height: 100%;
+cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+}
+
+.submit input:hover{
+  background-color: rgb(241, 72, 72);
+  border-radius: 0.3rem;
+  }
