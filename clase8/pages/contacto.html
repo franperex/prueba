@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+
+<body>
+    <header id="Encabezado" class="encabezado">
+        <div class="iralpie"><a href="#pie">Ir al pie</a></div>
+        <nav>
+            <ul class="texto1">
+                <li> <a href="../index.html">Home</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a> </li>
+                <li> <a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/personajes.html">Personajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <form action="" method="post" class="formulario">
+        <fieldset class="fieldset">
+            <legend class="legend"> Información del contacto</legend>
+            <div class="form_group">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="form_group">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+            <div class="form_group">
+                <label for="clave">Clave</label>
+                <input type="password" name="clave" id="clave">
+            </div>
+            <div class="form_group">
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="20" max="100">
+            </div>
+            <div class="form_group">
+                <select name="pais" id="">
+                    <option value="A">Argentina</option>
+                    <option value="C">Chile</option>
+                    <option value="B">Brasil</option>
+                </select>
+            </div>
+            <div class="form_group">
+                <p for="colores"> Seleccioná el color:</p>
+                <input type="radio" name="color" value="rojo">
+                <label for="rojo">Rojo</label>
+                <input type="radio" name="color" value="azul">
+                <label for="rojo">Azul</label>
+                <input type="radio" name="color" value="verde">
+                <label for="rojo">Verde</label>
+            </div>
+            <div class="form_group">
+            <label for="sauco">Sauco</label>
+            <input type="checkbox">
+            <label for="draco">Draco</label>
+            <input type="checkbox">
+            <label for="harry">Harry</label>
+            <input type="checkbox">
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Enviar formulario">
+            </div>
+    </form>
+    </fieldset>
+</body>
+
+</html>
