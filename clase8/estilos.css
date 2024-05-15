@@ -258,7 +258,7 @@ height: 100vh;
   margin-right: auto;  
   border-radius: 10px;
   box-shadow: 50px 50px 20px rgba(0, 0, 0, 0.2);
-||transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .tarjeta_perfil:hover {
