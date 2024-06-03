@@ -1,22 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RepreSA S.A.</title>
     <link rel="stylesheet" href="../estilos.css">
 </head>
+
 <body>
+    <div class="grilla">
     <header class="encabezado">
-        <nav> 
+        <nav>
             <ul class="menu">
-                <li> <div class="pepe"><a href="../index.html">Inicio</a></div></li>
+                <li>
+                    <div class="pepe"><a href="../index.html">Inicio</a></div>
+                </li>
                 <li><a href="./jugadores.html">Jugadores</a></li>
                 <li><a href="./nosotros.html">Nosotros</a> </li>
                 <li> <a href="./contacto.html">Contacto</a></li>
             </ul>
-        
         </nav>
-        </header>  
+    </header>
+    <section class="contenido_prin">
+    <h3>Contactate con nosotros:</h3>
+    <div>
+    <p>Nos podes encontrar en xxxxxxxxxxxxxxxxxxxxxxx</p>
+    <p>Telefono:</p>
+    <p>Correo electrónico</p>
+
+    </div>
+
+
+
+</section>
+    <section class="extra">
+        <form action="" method="post" class="formulario">
+            <fieldset class="fieldset">
+                <legend class="legend"> Dejanos tus datos y te contactaremos</legend>
+                <div class="form_group">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div class="form_group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+                <div class="form_group">
+                    <label for="clave">Correo electrónico</label>
+                    <input type="text" name="correo_electronico" id="correo_electronico">
+                </div>
+                <div class="form_group">
+                    <label for="Telefono">Teléfono</label>
+                    <input type="text" name="telefono" id="telefono">
+                </div>
+                <br>
+                <div class="form_group">
+                    <select name="pais" id="pais">
+                        <option value="" disabled selected>Dónde vivis?</option>
+                        <option value="A">Argentina</option>
+                        <option value="C">Chile</option>
+                        <option value="B">Brasil</option>
+                    </select>
+                </div>
+                <br>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" value="Enviar formulario">
+            </div>
+        </form>
+
+
+
+    </section>
+    <footer>
+        <p>Pie de pagina</p>
+    </footer>
+</div>
 </body>
+
 </html>
