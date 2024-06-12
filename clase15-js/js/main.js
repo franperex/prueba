@@ -38,8 +38,16 @@ console.log(resultado);
   
 // Ejercicio 2 Crea un array de strings con nombres y luego guardá en una variable nombresCortos un nuevo array con los nombres que tengan 5 o menos letras.
 
-let nombres = ['Juan','Francisco','Belen','Lucrecia','Ana','Mariana'];
+/**/let nombres = ['Juan','Francisco','Belen','Lucrecia','Ana','Mariana'];
 
 let nombresCortos = nombres.filter(nombre => nombre.length <= 5 );
 
 console.log(nombresCortos);
+
+
+/*
+let objetos = ['pipa', 'taza', 'lapiz'];
+objetos.forEach(function(objetos, indica, arreglo){
+    console.log("El objeto es: ", objetos, indica, arreglo); //esto muestra todo, se puede indicar para que muestre lo que quieras.
+})
+*/
