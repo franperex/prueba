@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 class="titulo">Haikus</h1>
+    <div id="form-container">
+        <h2>Agregar Haiku</h2>
+        <form id="data-form">
+            <label for="data-input">Escribe tu Haiku:</label>
+            <input type="text" id="data-input" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </div>
+    <div id="data-container">
+        <h2>Haikus existentes</h2>
+        <ul id="data-list"></ul>
+    </div>
+    <div id="api-container">
+        <h2>Datos de API</h2>
+        <button id="fetch-api-button">Consultar API</button>
+        <ul id="api-data-list"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
