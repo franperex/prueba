@@ -1,0 +1,23 @@
+.navbar {
+    list-style-type: none;
+    display: flex;
+    background-color: #C8E6C9;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    padding: 2rem;
+}
+
+.navbar li a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    color: rgb(13, 13, 95);
+    padding: 0.1rem;
+    text-decoration: none;
+    margin: 2%;
+}

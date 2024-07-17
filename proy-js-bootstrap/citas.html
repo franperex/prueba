@@ -10,7 +10,7 @@
 </head>
 
 <body class="principal">
-<div class="contenido">
+    <div class="contenido">
     <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">Citas</a>
@@ -26,53 +26,35 @@
                     </li>
 
                 </ul>
-
+                <form class="d-flex" role="search" onsubmit="event.preventDefault();">
+                    <input id="nuevaBusqueda" class="form-control me-2" type="search" placeholder="Ej.:Aristoteles..."
+                        aria-label="Search">
+                    <button id="buscarBtn" class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
         </div>
     </nav>
-    <div class="titulo">
-        <h1>Citas añadidas por usuarios</h1>
+
+    <div id="tituloBusqueda">
+
     </div>
 
 
     <div class="container text-center">
-        <div id="tarjetas" class="row">
+        <div id="tarjetasBusqueda" class="row">
 
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2>Añada su cita preferida</h2>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Autor</label>
-                    <input id="textAutor" type="text" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Coloque el nombre del autor">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Escriba su cita</label>
-                    <textarea class="form-control" id="textCita" rows="3"></textarea>
-                </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button id="agregarBtn" class="btn btn-primary me-md-2" type="button">Enviar</button>
-                </div>
-            </div>
-        </div>
     </div>
-    
-</div>
-</div>
 </div>
     <footer>
-        <div class="container">
         <p>© 2024 Citas Todos los derechos reservados.</p>
-    </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="./busqueda.js"></script>
 </body>
 
 </html>
